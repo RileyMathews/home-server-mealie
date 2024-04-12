@@ -3,7 +3,7 @@ version: "3.8"
 services:
   mealie:
     user: "1000"
-    image: ghcr.io/mealie-recipes/mealie:v1.0.0
+    image: ghcr.io/mealie-recipes/mealie:v1.4.0
     container_name: mealie 
     restart: unless-stopped
     volumes:
